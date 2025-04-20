@@ -4,9 +4,9 @@
 
 int main()
 {
-    int i, num1, num2, max, lcm=1;
+    int i, num1, num2, max, lcm = 1;
 
-    printf("Enter any two numbers to find LCM: ");
+    printf("Enter any two numbers to find LCM : ");
     scanf("%d%d", &num1, &num2);
 
     max = (num1 > num2) ? num1 : num2;
